@@ -1,4 +1,4 @@
-var eventBus = new Vue()
+const eventBus = new Vue()
 
 Vue.component('product', {
     props: {
@@ -256,7 +256,7 @@ Vue.component('info-tabs', {
     }
 })
 
-var app = new Vue({
+const app = new Vue({
     el: '#app',
     data: {
         premium: false,
